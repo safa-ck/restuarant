@@ -1,0 +1,246 @@
+.wrapper{
+    width: 90%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    
+}
+header section.wrapper{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   margin-top: 20px;
+} 
+header section.wrapper div.left img{
+    height: 20px;
+    
+}
+header section.wrapper div.mid ul{
+    display: flex;
+    margin-right: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header section.wrapper div.mid ul li{
+    padding: 20px;
+}
+header section.wrapper div.right button a {
+background-color: rgb(121, 231, 11);
+padding: 8px 16px;
+border: 1px solid;
+border-style: none;
+border-radius: 20px;
+cursor: pointer;
+color: white;
+}
+
+#home section.wrapper{
+  display: flex;
+
+}
+
+#home section.wrapper div.left p{
+    font-size: 50px;
+    color: rgb(9, 9, 9);
+    font-weight: bold;
+    padding: 30px;
+}
+#home section.wrapper div.left span{
+    color:rgb(117, 215, 18); ;
+}
+
+#home section.wrapper div.left ul{
+    font-size: 30px;
+    color: rgb(86, 84, 84);
+    padding: 30px;
+}
+#home section.wrapper div.left button a{
+    background-color: rgb(121, 231, 11);
+    padding: 8px 16px;
+    border: 1px solid;
+    border-style: none;
+    border-radius: 20px;
+    cursor: pointer;
+    color: white;
+    margin-left: 40px; 
+}
+#home section.wrapper div.right img{
+    height: 600px;
+   margin-left: 800px;
+   margin-top: -400px;
+    
+}
+
+
+#category section.wrapper div.top{
+    text-align: center;
+    padding: 150px;
+
+    
+}
+#category section.wrapper div.top h1{
+    font-size: 15px;
+    color: red;
+
+    
+}
+#category section.wrapper div.top ul li p{
+    font-size: 40px ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 50px;
+    
+
+}
+#category section.wrapper div.bottom{
+    display: flex;
+    padding-bottom: 100px;
+  
+}
+#category section.wrapper div.bottom ul{
+   box-shadow: 0px 30px 50px rgba(0, 0, 0, 0.08);
+   padding: 45px;
+   transition: transform 0.2s ease-in-out;
+   border-radius: 30px;
+   margin-left: 80px;
+}
+#category section.wrapper div.bottom ul li{
+    
+    text-align: center;
+   
+}
+#category section.wrapper div.bottom ul li img{
+    background-color: rgb(163, 233, 207);
+    border-radius: 50%;
+    
+    height: 150px;
+    width: 150px;
+    
+}
+
+
+
+
+#menu section.wrapper div.top{
+    padding: 20px;
+    
+}
+#menu section.wrapper div.top h1{
+    font-size: 15px;
+    color: red;
+}
+#menu section.wrapper div.top ul li p{
+    font-size: 40px ;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#menu section.wrapper div.bottom{
+   display: flex;
+   padding-bottom: 100px;
+   margin-left: 50px;
+  
+    
+}
+
+#menu section.wrapper div.bottom ul{
+ 
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.08);
+     padding: 50px;
+   border-radius: 20px;
+   margin-top: 50px;
+   margin-left: 120px;
+} */
+#menu section.wrapper div.bottom ul li{
+    
+    text-align: center;
+    padding-top: 10px;
+    
+   
+}
+#menu section.wrapper div.bottom ul li img{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+} 
+
+#aboutus section.wrapper{
+display: flex;
+}
+
+#aboutus section.wrapper div.left img{
+    height: 600px;
+    width: 600px;
+    margin-left: 100px;
+}
+#aboutus section.wrapper div.right ul{
+    margin-left: 400px;
+}
+#aboutus section.wrapper div.right ul li h4{
+    font-size: 15px;
+    color: red;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#aboutus section.wrapper div.right ul li h1{
+    font-size: 40px;
+    font-weight: 800;
+}
+#aboutus section.wrapper div.right ul li p{
+    padding-top: 20px;
+}
+
+footer section.wrapper{
+display: flex;
+justify-content: space-between;
+padding: 100px;
+}
+
+footer section.wrapper div.left img{
+      
+height: 20px;
+}
+footer section.wrapper div.left ul li p{
+padding-top: 20px;
+}
+footer section.wrapper div.mid1 h1{
+    font-size: 20px;
+    font-weight: 600;
+    
+}
+
+footer section.wrapper div.mid2 h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+footer section.wrapper div.right h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
