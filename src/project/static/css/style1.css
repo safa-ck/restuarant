@@ -37,6 +37,7 @@ color: white;
 
 #home section.wrapper{
   display: flex;
+  
 
 }
 
@@ -216,6 +217,218 @@ footer section.wrapper div.mid2 h1{
 footer section.wrapper div.right h1{
     font-size: 20px;
     font-weight: 600;
+}
+
+/* Responsive Design */
+/* Large tablets and small desktops */
+@media (max-width: 1024px) {
+    .wrapper {
+        width: 95%;
+    }
+    
+    header section.wrapper div.mid ul {
+        margin-right: 100px;
+    }
+    
+    #home section.wrapper div.right img {
+        height: 500px;
+        margin-left: 400px;
+        margin-top: -300px;
+    }
+    
+    #aboutus section.wrapper div.right ul {
+        margin-left: 200px;
+    }
+    
+    #category section.wrapper div.bottom ul,
+    #menu section.wrapper div.bottom ul {
+        margin-left: 40px;
+    }
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+    header section.wrapper {
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+    header section.wrapper div.mid ul {
+        margin-right: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    header section.wrapper div.mid ul li {
+        padding: 10px;
+    }
+    
+    #home section.wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #home section.wrapper div.left p {
+        font-size: 36px;
+        padding: 20px;
+    }
+    
+    #home section.wrapper div.left ul {
+        font-size: 24px;
+        padding: 20px;
+    }
+    
+    #home section.wrapper div.right img {
+        height: 400px;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    
+    #category section.wrapper div.top {
+        padding: 80px 20px;
+    }
+    
+    #category section.wrapper div.top ul li p {
+        font-size: 32px;
+    }
+    
+    #category section.wrapper div.bottom {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    #category section.wrapper div.bottom ul {
+        margin-left: 0;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+    
+    #menu section.wrapper div.bottom {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+    
+    #menu section.wrapper div.bottom ul {
+        margin-left: 0;
+        margin-bottom: 30px;
+        width: 80%;
+    }
+    
+    #aboutus section.wrapper {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    #aboutus section.wrapper div.left img {
+        height: 400px;
+        width: 400px;
+        margin-left: 0;
+    }
+    
+    #aboutus section.wrapper div.right ul {
+        margin-left: 0;
+        padding: 20px;
+    }
+    
+    footer section.wrapper {
+        flex-direction: column;
+        text-align: center;
+        gap: 40px;
+        padding: 60px 20px;
+    }
+}
+
+/* Mobile devices */
+@media (max-width: 480px) {
+    .wrapper {
+        width: 98%;
+    }
+    
+    header section.wrapper div.mid ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    header section.wrapper div.mid ul li {
+        padding: 5px;
+    }
+    
+    #home section.wrapper div.left p {
+        font-size: 28px;
+        padding: 15px;
+    }
+    
+    #home section.wrapper div.left ul {
+        font-size: 20px;
+        padding: 15px;
+    }
+    
+    #home section.wrapper div.right img {
+        height: 300px;
+    }
+    
+    #category section.wrapper div.top {
+        padding: 60px 10px;
+    }
+    
+    #category section.wrapper div.top ul li p {
+        font-size: 28px;
+    }
+    
+    #category section.wrapper div.bottom ul,
+    #menu section.wrapper div.bottom ul {
+        width: 90%;
+        padding: 30px 20px;
+    }
+    
+    #category section.wrapper div.bottom ul li img,
+    #menu section.wrapper div.bottom ul li img {
+        height: 120px;
+        width: 120px;
+    }
+    
+    #aboutus section.wrapper div.left img {
+        height: 300px;
+        width: 300px;
+    }
+    
+    #aboutus section.wrapper div.right ul li h1 {
+        font-size: 32px;
+    }
+    
+    footer section.wrapper {
+        padding: 40px 10px;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 320px) {
+    #home section.wrapper div.left p {
+        font-size: 24px;
+    }
+    
+    #home section.wrapper div.left ul {
+        font-size: 18px;
+    }
+    
+    #home section.wrapper div.right img {
+        height: 250px;
+    }
+    
+    #category section.wrapper div.top ul li p,
+    #menu section.wrapper div.top ul li p {
+        font-size: 24px;
+    }
+    
+    #aboutus section.wrapper div.left img {
+        height: 250px;
+        width: 250px;
+    }
+    
+    #aboutus section.wrapper div.right ul li h1 {
+        font-size: 28px;
+    }
 }
 
 
